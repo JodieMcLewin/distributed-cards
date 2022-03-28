@@ -2,11 +2,71 @@ html {
   box-sizing: border-box;
   font-family: 'Georgia', serif;
   line-height: 1.5;
-  background-color: #ede3db;
+  background-color: #f5f2f0;
 }
 
 *,
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 1.5rem;
+  padding: 1rem;
+}
+
+h1, h2 {
+  font-family: 'Denk One', sans-serif;
+  color: #623b0c;
+}
+
+h1 {
+
+}
+
+/*h2 {
+  margin: 1.5rem;
+}*/
+
+img {
+  width: 100%;
+  margin: 1.5rem;
+}
+
+ol {
+  display: grid;
+  margin: 1.5rem;
+  padding: .5em .75em .6em;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+li {
+  background-color: #ede3db;
+  border: 2px solid #623b0c;
+  border-radius: 8px;
+  padding: .5em .75em .6em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+p {
+  color: #000;
+  margin: 1.5rem;
+}
+
+a {
+  background-color: #623b0c;
+  color: #fff;
+  text-decoration: none;
+  margin: 1.5rem;
+  padding: .5em .75em .6em;
+  border-radius: 8px;
+}
+
+a:hover {
+  background-color: #ede3db;
+  color: #623b0c;
 }
