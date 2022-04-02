@@ -20,22 +20,14 @@ body {
 h1, h2 {
   font-family: "Denk One", sans-serif;
   color: #623b0c;
-}
-
-h1 {
-  margin: 0;
-}
-
-h2 {
-  margin: 0;
-  padding: 1rem;
+  margin: 0 0 1.5rem;
+  padding: 0;
 }
 
 img {
   width: 100%;
-  margin: 0;
-  padding: 1rem;
-  padding-top: .5em;
+  margin: 0 0 1.5rem;
+  padding: 0;
 }
 
 ol {
@@ -53,13 +45,13 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  padding: 1rem;
 }
 
 p {
   color: #000;
   margin: 0;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 0;
   font-family: Georgia, serif;
 }
 
@@ -67,7 +59,7 @@ a {
   background-color: #623b0c;
   color: #fff;
   text-decoration: none;
-  margin: 1rem;
+  margin-top: 1.5rem;
   padding: .5em .75em .6em;
   border-radius: 8px;
   font-family: Georgia, serif;
